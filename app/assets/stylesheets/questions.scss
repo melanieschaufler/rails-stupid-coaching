@@ -1,0 +1,34 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.message-card {
+  background-color: #F8D3D3;
+  border-left: 6px solid #EE4443;
+  width: 40%;
+  font-family: sans-serif;
+  h1 {
+    font-size: 20px;
+    color: #EE4443;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  p {
+    color: #333333;
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+  }
+}
+
+#own-message {
+  background-color: #F8D3D360;
+
+}
+
+a {
+  color:#EE4443;
+  text-decoration: none;
+}

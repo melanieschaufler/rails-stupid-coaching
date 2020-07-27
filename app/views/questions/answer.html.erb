@@ -1,0 +1,11 @@
+<div class="message-card" id="own-message">
+<h1><%= params[:question] %></h1>
+<p>- you</p>
+</div>
+
+<div class="message-card">
+<h1><%= @answer %></h1>
+<p>- your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
